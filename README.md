@@ -67,13 +67,14 @@ wine-recommendation-nlp/
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/your-username/wine-recommendation-nlp.git
+```bash
+git clone https://github.com/the-irritater/wine-recommendation-nlp.git
 cd wine-recommendation-nlp
 pip install -r requirements.txt
-
 ## Run the Project
 
 python wine_recommendation_nlp.py
+```
 
 ## Key Features
 
