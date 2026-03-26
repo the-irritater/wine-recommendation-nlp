@@ -52,4 +52,3 @@ Selecting the right product from a large catalog can be challenging for customer
 
 ## Author
 Sanman Kadam
-GitHub: https://github.com/the-irritater
