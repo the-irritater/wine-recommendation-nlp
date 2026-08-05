@@ -16,7 +16,7 @@ import nmslib
 
 st.set_page_config(
     page_title="Wine Recommendation System",
-    page_icon="🍷",
+    page_icon="",
     layout="wide",
 )
 

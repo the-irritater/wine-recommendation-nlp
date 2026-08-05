@@ -13,7 +13,7 @@ Keyword search fails to map semantic equivalence between flavor descriptors (e.g
 ### Sample Queries & Output Results
 
 | Query | Top Recommendation | Variety | Price | Score | Distance |
-|---|---|---|---|---|---|
+|-|-|-|-|-|-|
 | "dry and fruity red" | Marqués de Cáceres | Tempranillo | $12 | 87 | 0.1245 |
 | "high acidity taste tart and zesty" | Kim Crawford | Sauvignon Blanc | $14 | 90 | 0.1082 |
 | "bold and peppery good with steak" | Barossa Valley Shiraz | Shiraz | $22 | 91 | 0.1154 |
@@ -21,7 +21,7 @@ Keyword search fails to map semantic equivalence between flavor descriptors (e.g
 ### Search Engine Benchmarks
 
 | Methodology | Recall@10 (vs Ground Truth) | Query Latency | Notes |
-|---|---|---|---|
+|-|-|-|-|
 | NMSLIB (HNSW Cosine Index) | 98.2% | 0.8ms | Selected production index |
 | Brute-Force Cosine Similarity | 100.0% | 45.0ms | Ground truth baseline |
 | TF-IDF Keyword Match | 72.1% | 12.0ms | Misses semantic synonyms |
